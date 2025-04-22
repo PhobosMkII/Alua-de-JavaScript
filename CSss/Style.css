@@ -10,6 +10,7 @@ body {
     background-image: radial-gradient(rgb(240, 239, 223), rgb(218, 217, 204));
     align-items: center;
     justify-content: center;
+    flex: 1;
   }
 
   /* Header */
@@ -51,14 +52,15 @@ body {
 }
 
 #Bottom {
-    clear: both;
-    text-align: center;
-    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #394f35;
     color: #212b1e;
-    text-align: justify;
-    margin-top: 15px;
-  }
+    text-align: center;
+    padding: 30px;
+}
 
 /* Texting */
 h3 {
