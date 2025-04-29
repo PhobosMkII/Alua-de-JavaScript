@@ -1,0 +1,40 @@
+#layout {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#item {
+    padding: 15;
+    float: center;
+}
+
+.layout-item {
+    padding: 50;
+    margin: 0 auto;
+    background-color: #DFD7D1;
+    color: #ddb737;
+    box-shadow: 0px 0px 3px rgba(0,0,0.1);
+    width: 400;
+    height: 250;
+    transition: 0.5s;
+    margin-bottom: 140px;
+    margin-top: 50px;
+}
+
+.layout-item:hover {
+    transform: scale(1.05);
+}
+
+#p-name {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+h3 {
+    padding: 50px;
+    margin-bottom: 15px;
+}
