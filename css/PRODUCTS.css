@@ -14,7 +14,7 @@
     padding: 20;
     margin: 0 auto;
     background-color: #DFD7D1;
-    box-shadow: 0px 0px 3px rgba(0,0,0.1    );
+    box-shadow: 0px 0px 10px rgba(0,0,0.1    );
     width: 250;
     height: 250;
     transition: 0.5s;
@@ -26,7 +26,7 @@
     outline: 0;
     padding: 20px;
     color: #F4F1EF;
-    background-color: #b8a153;
+    background-color: #ddb737;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -45,7 +45,7 @@
 }
 
 .price {
-    color: #62521d;
+    color: rgb(177, 146, 42);
     font-size: 22px;
     text-align: center;
 }
